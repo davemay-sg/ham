@@ -104,13 +104,15 @@
        //Start the prediction indefinitely on the video stream  
        requestAnimationFrame(predict); 
       }; 
-
-      console.log('run main()');
     }
 
 
     // run main
-    main();
+    setTimeout(function(){
+      console.log('run main()');
+      main();
+    }, 7000);
+    
   </script>
 
 </body> 
