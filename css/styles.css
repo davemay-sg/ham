@@ -13,7 +13,7 @@ body{
 }
 #swipe{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 28px;
     color:#82bfbb;
 
     width:980px;
@@ -24,17 +24,18 @@ body{
 
 #pageHolder{
     position: absolute;
-    top: 180px;
-    left: 440px;
+    top: 120px;
+    left: 425px;
 }
 #page{
     font-family: Arial, Helvetica, sans-serif;
     display: table-cell;
+    font-size: 22px;
 
     color:#CCC;
     background: #222;
-    width: 100px;
-    height: 30px;
+    width: 130px;
+    height: 40px;
 
     border-radius: 3px;
     box-sizing: border-box;    
@@ -44,10 +45,27 @@ body{
 }
 
 
+#arrowflip{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
+    position: relative;
+    top: 7px;
+
+    opacity: 0.3;
+}
+#arrow{
+    position: relative;
+    top: 7px;
+
+    opacity: 0.3;
+}
+
+
 
 #flipbook{
     position:absolute;
-    top:200;
+    top:140;
     left:0;
 
     width:980;
