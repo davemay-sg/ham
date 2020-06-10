@@ -8,6 +8,10 @@
 	<script type="text/javascript" src="js/adapter.js"></script>
 	<script type="text/javascript" src="js/webjack.js"></script>
 	<script type="text/javascript" src="js/turn.js"></script>
+
+	<!-- video -->
+	<link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
+  	<script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 </head>
 
 
@@ -20,6 +24,21 @@
 			<div id="page">{{ page }} {{ message }}</div>
 		</div>
 	</div>
+
+
+	<video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="980"
+    height="551"
+    poster="MY_VIDEO_POSTER.jpg"
+    data-setup="{}"
+	>
+	    <source src="pages/video.mp4" type="video/mp4" />
+	</video>
+
 	
 	<div id="flipbook">
 		<div><img src="pages/page-0.png"></div>
@@ -30,9 +49,10 @@
 	</div>
 
 
-	
+	<!-- video -->
+	<script src="https://vjs.zencdn.net/7.8.2/video.js"></script>
 
-
+	<!-- web app -->
 	<script type="text/javascript">
 
 		$(window).ready(function() {
