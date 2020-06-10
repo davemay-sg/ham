@@ -63,6 +63,17 @@ body{
 
 
 
+
+#videoHolder{
+    position:absolute;
+    top:110;
+    left:0;
+
+    width:980;
+}
+
+
+
 #flipbook{
     position:absolute;
     top:110;
